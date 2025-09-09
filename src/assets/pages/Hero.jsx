@@ -13,7 +13,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed">
-            Dribbble is the leading destination to find & showcase creative work
+            Glossy is the leading destination to find & showcase creative work
             and home to the world's best design professionals.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
@@ -235,8 +235,7 @@ const CTA = () => {
           Ready to get started?
         </h2>
         <p className="text-xl md:text-2xl text-gray-300 mb-12">
-          Join millions of designers and creative professionals who trust
-          Dribbble
+          Join millions of designers and creative professionals who trust Glossy
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button className="bg-pink-500 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-pink-600 transition-all transform hover:scale-105 shadow-lg">

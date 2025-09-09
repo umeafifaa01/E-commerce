@@ -6,7 +6,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <h1 className="text-2xl font-bold text-gray-800">Dribbble</h1>
+          <img src="/public/fav.jpg" alt="" />
+          <h1 className="text-2xl font-bold text-gray-800">Glossy</h1>
         </div>
 
         {/* Navigation Links */}
