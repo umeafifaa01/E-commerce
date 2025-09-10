@@ -1,96 +1,99 @@
-import React from "react";
-
 const Footer = () => {
   return (
-    <>
-      <footer class="bg-gray-50 border-t py-8 px-6">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg-white border-t border-gray-200 py-16 px-6">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div>
-            <h2 class="text-2xl font-bold text-gray-800">Dribbble</h2>
-            <p class="text-sm text-gray-500 mt-2">© 2025 Dribbble</p>
-            <div class="mt-2 flex gap-4 text-sm text-gray-500">
-              <a href="#">Terms</a>
-              <a href="#">Privacy</a>
-              <a href="#">Cookies</a>
+            <h3 className="text-lg font-bold text-gray-900 mb-4">
+              For designers
+            </h3>
+            <div className="space-y-3">
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Go Pro!
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Explore design work
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Design blog
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Overtime podcast
+              </button>
             </div>
           </div>
-
-          <div class="grid grid-cols-2 gap-4 text-sm text-gray-700">
-            <div class="space-y-2">
-              <a href="#" class="block hover:text-black">
-                For designers
-              </a>
-              <a href="#" class="block hover:text-black">
-                Hire talent
-              </a>
-              <a href="#" class="block hover:text-black">
-                Inspiration
-              </a>
-              <a href="#" class="block hover:text-black">
-                Advertising
-              </a>
+          <div>
+            <h3 className="text-lg font-bold text-gray-900 mb-4">
+              Hire designers
+            </h3>
+            <div className="space-y-3">
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Post a job opening
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Post a freelance project
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Search for designers
+              </button>
             </div>
-            <div class="space-y-2">
-              <a href="#" class="block hover:text-black">
-                Blog
-              </a>
-              <a href="#" class="block hover:text-black">
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-gray-900 mb-4">Company</h3>
+            <div className="space-y-3">
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
                 About
-              </a>
-              <a href="#" class="block hover:text-black">
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
                 Careers
-              </a>
-              <a href="#" class="block hover:text-black">
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
                 Support
-              </a>
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Media kit
+              </button>
             </div>
           </div>
-
-          <div class="grid grid-cols-2 gap-4 text-sm text-gray-700">
-            <div class="space-y-2">
-              <a href="#" class="block hover:text-black">
-                Branding
-              </a>
-              <a href="#" class="block hover:text-black">
-                Product Design
-              </a>
-              <a href="#" class="block hover:text-black">
-                Typography
-              </a>
-            </div>
-            <div class="space-y-2">
-              <a href="#" class="block hover:text-black">
-                Mobile
-              </a>
-              <a href="#" class="block hover:text-black">
-                Web Design
-              </a>
+          <div>
+            <h3 className="text-lg font-bold text-gray-900 mb-4">
+              Directories
+            </h3>
+            <div className="space-y-3">
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Design jobs
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Designers for hire
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Freelance designers
+              </button>
+              <button className="block text-gray-600 hover:text-black transition-colors text-left">
+                Tags
+              </button>
             </div>
           </div>
         </div>
 
-        <div class="max-w-7xl mx-auto mt-8 flex justify-center space-x-6 text-gray-500">
-          <a href="#" class="hover:text-black">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#" class="hover:text-black">
-            <i class="fab fa-facebook"></i>
-          </a>
-          <a href="#" class="hover:text-black">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#" class="hover:text-black">
-            <i class="fab fa-pinterest"></i>
-          </a>
+        <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <div className="text-gray-500 text-sm mb-4 md:mb-0">
+            © 2024 Glossy. All rights reserved.
+          </div>
+          <div className="flex items-center space-x-6">
+            <button className="text-gray-500 hover:text-black transition-colors text-sm">
+              Terms
+            </button>
+            <button className="text-gray-500 hover:text-black transition-colors text-sm">
+              Privacy
+            </button>
+            <button className="text-gray-500 hover:text-black transition-colors text-sm">
+              Cookies
+            </button>
+          </div>
         </div>
-      </footer>
-
-      <script
-        src="https://kit.fontawesome.com/a076d05399.js"
-        crossorigin="anonymous"
-      ></script>
-    </>
+      </div>
+    </footer>
   );
 };
-
 export default Footer;
