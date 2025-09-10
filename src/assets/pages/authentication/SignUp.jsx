@@ -326,7 +326,11 @@ const SignUpPage = () => {
               />
               <label className="text-sm text-gray-700">
                 I agree to the{" "}
-                <a href="#" className="text-pink-500 hover:underline">
+                <a
+                  href="#"
+                  onClick={() => navigate("/terms")}
+                  className="text-pink-500 hover:underline"
+                >
                   terms and conditions
                 </a>
               </label>

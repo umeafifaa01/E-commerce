@@ -268,6 +268,7 @@ const LoginPage = () => {
                   </label>
                 </div>
                 <button
+                  onClick={() => navigate("/forgot")}
                   type="button"
                   className="text-sm text-pink-600 hover:text-pink-700 font-medium transition-colors"
                 >

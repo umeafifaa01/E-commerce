@@ -37,19 +37,34 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
-          <button className="text-sm text-gray-700 hover:text-black transition-colors">
+          <button
+            onClick={() => navigate("/insp")}
+            className="text-sm text-gray-700 hover:text-pink-600 transition-colors"
+          >
             Inspiration
           </button>
-          <button className="text-sm text-gray-700 hover:text-black transition-colors">
+          <button
+            onClick={() => navigate("/find")}
+            className="text-sm text-gray-700 hover:text-pink-600 transition-colors"
+          >
             Find Work
           </button>
-          <button className="text-sm text-gray-700 hover:text-black transition-colors">
+          <button
+            onClick={() => navigate("/learn")}
+            className="text-sm text-gray-700 hover:text-pink-600 transition-colors"
+          >
             Learn Design
           </button>
-          <button className="text-sm text-gray-700 hover:text-black transition-colors">
+          <button
+            onClick={() => navigate("/go")}
+            className="text-sm text-gray-700 hover:text-pink-600 transition-colors"
+          >
             Go Pro
           </button>
-          <button className="text-sm text-gray-700 hover:text-black transition-colors">
+          <button
+            onClick={() => navigate("/hire")}
+            className="text-sm text-gray-700 hover:text-pink-600 transition-colors"
+          >
             Hire Designers
           </button>
         </div>
@@ -71,7 +86,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-3">
             <button
               onClick={handleLoginPage}
-              className="text-sm text-gray-700 hover:text-black transition-colors"
+              className="text-sm text-gray-700 hover:text-pink-600 transition-colors"
             >
               Log in
             </button>

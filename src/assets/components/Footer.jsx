@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <footer className="bg-white border-t border-gray-200 py-16 px-6">
       <div className="max-w-7xl mx-auto">
@@ -81,7 +84,10 @@ const Footer = () => {
             © 2024 Glossy. All rights reserved.
           </div>
           <div className="flex items-center space-x-6">
-            <button className="text-gray-500 hover:text-black transition-colors text-sm">
+            <button
+              onClick={() => navigate("/terms")}
+              className="text-gray-500 hover:text-black transition-colors text-sm"
+            >
               Terms
             </button>
             <button className="text-gray-500 hover:text-black transition-colors text-sm">

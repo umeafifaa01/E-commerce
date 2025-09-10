@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section className="bg-gradient-to-br from-pink-50 via-white to-purple-50 py-20 px-6">
@@ -18,10 +19,16 @@ const Hero = () => {
               and home to the world's best design professionals.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-              <button className="bg-pink-500 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+              <button
+                onClick={() => navigate("/signup")}
+                className="bg-pink-500 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+              >
                 Sign up to continue
               </button>
-              <button className="text-gray-700 px-8 py-4 rounded-full text-lg font-medium hover:text-black transition-colors border border-gray-300 hover:border-gray-400">
+              <button
+                onClick={() => navigate("/learns")}
+                className="text-gray-700 px-8 py-4 rounded-full text-lg font-medium hover:text-black transition-colors border border-gray-300 hover:border-gray-400"
+              >
                 Learn more
               </button>
             </div>

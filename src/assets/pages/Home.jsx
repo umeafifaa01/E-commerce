@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 import Hero from "../components/Hero";
 import DesignCard from "../components/DesignCard";
-
+import { useNavigate } from "react-router-dom";
 const HomePage = () => {
+  const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = useState("all");
-
   const designs = [
     {
       title: "Mobile App Design",
       author: "Sarah Chen",
       likes: "2.1k",
       views: "15.2k",
-      bgColor: "bg-gradient-to-br from-purple-500 to-pink-500",
+      image:
+        "https://images.unsplash.com/photo-1581090464777-6f47f86f7e8f?auto=format&fit=crop&w=800&q=80",
       category: "mobile",
     },
     {
@@ -19,7 +20,8 @@ const HomePage = () => {
       author: "Alex Rivera",
       likes: "1.8k",
       views: "12.4k",
-      bgColor: "bg-gradient-to-br from-blue-500 to-cyan-400",
+      image:
+        "https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=800&q=80",
       category: "branding",
     },
     {
@@ -27,7 +29,8 @@ const HomePage = () => {
       author: "Maya Patel",
       likes: "3.2k",
       views: "18.7k",
-      bgColor: "bg-gradient-to-br from-green-500 to-emerald-400",
+      image:
+        "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=800&q=80",
       category: "web",
     },
     {
@@ -35,7 +38,8 @@ const HomePage = () => {
       author: "James Wilson",
       likes: "2.7k",
       views: "14.1k",
-      bgColor: "bg-gradient-to-br from-orange-500 to-red-500",
+      image:
+        "https://images.unsplash.com/photo-1616401784845-1893e79c4f57?auto=format&fit=crop&w=800&q=80",
       category: "branding",
     },
     {
@@ -43,7 +47,8 @@ const HomePage = () => {
       author: "Lisa Zhang",
       likes: "1.9k",
       views: "11.8k",
-      bgColor: "bg-gradient-to-br from-indigo-500 to-purple-500",
+      image:
+        "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=800&q=80",
       category: "ui",
     },
     {
@@ -51,7 +56,8 @@ const HomePage = () => {
       author: "David Kumar",
       likes: "2.4k",
       views: "16.3k",
-      bgColor: "bg-gradient-to-br from-pink-500 to-rose-400",
+      image:
+        "https://images.unsplash.com/photo-1628191076174-59e5d16f3f41?auto=format&fit=crop&w=800&q=80",
       category: "illustration",
     },
   ];
@@ -106,7 +112,10 @@ const HomePage = () => {
           </div>
 
           <div className="text-center">
-            <button className="bg-gray-900 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors shadow-lg hover:shadow-xl">
+            <button
+              onClick={() => navigate("/bro")}
+              className="bg-gray-900 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors shadow-lg hover:shadow-xl"
+            >
               Browse more inspiration
             </button>
           </div>
