@@ -12,7 +12,7 @@ const HomePage = () => {
       likes: "2.1k",
       views: "15.2k",
       image:
-        "https://images.unsplash.com/photo-1581090464777-6f47f86f7e8f?auto=format&fit=crop&w=800&q=80",
+        "https://img.freepik.com/free-photo/realistic-phone-studio-social-media-concept_23-2151459536.jpg?semt=ais_hybrid&w=740&q=80",
       category: "mobile",
     },
     {
@@ -39,7 +39,7 @@ const HomePage = () => {
       likes: "2.7k",
       views: "14.1k",
       image:
-        "https://images.unsplash.com/photo-1616401784845-1893e79c4f57?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1665799871677-f1fd17338b43?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWV0YXxlbnwwfHwwfHx8MA%3D%3D",
       category: "branding",
     },
     {
@@ -57,7 +57,7 @@ const HomePage = () => {
       likes: "2.4k",
       views: "16.3k",
       image:
-        "https://images.unsplash.com/photo-1628191076174-59e5d16f3f41?auto=format&fit=crop&w=800&q=80",
+        "https://plus.unsplash.com/premium_photo-1731072641019-0fdaed888502?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhcGhpYyUyMGlsbHVzdHJhdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
       category: "illustration",
     },
   ];
