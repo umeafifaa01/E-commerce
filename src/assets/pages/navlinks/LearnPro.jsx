@@ -4,7 +4,7 @@ const LearnPro = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header Section */}
-      <section className="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-20 px-6 text-center">
+      <section className="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white py-20 px-6 text-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
           Unlock the Power of Pro 🚀
         </h1>
@@ -67,14 +67,14 @@ const LearnPro = () => {
       </section>
 
       {/* Call To Action */}
-      <section className="bg-gradient-to-br from-gray-900 to-black text-white py-20 text-center">
+      <section className="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white py-20 text-center">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
           Ready to Upgrade?
         </h2>
         <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
           Start your Pro journey today and elevate your creative potential.
         </p>
-        <button className="bg-pink-500 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-pink-600 transition-transform hover:scale-105 shadow-lg hover:shadow-xl">
+        <button className="bg-gradient-to-r from-pink-500 to-violet-600 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-pink-600 transition-transform hover:scale-105 shadow-lg hover:shadow-xl">
           Upgrade to Pro
         </button>
       </section>
